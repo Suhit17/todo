@@ -43,7 +43,7 @@ export default function TodoApp() {
           type="text"
           value={newTodo}
           onChange={(e) => setNewTodo(e.target.value)}
-          placeholder="Add a new task"
+          placeholder="Add a new work"
           className="flex-grow"
         />
         <Button onClick={addTodo}>
